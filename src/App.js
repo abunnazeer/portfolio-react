@@ -3,9 +3,10 @@ import MHeader from "./components/MHeader";
 import Banner from "./components/Banner";
 import Experience from "./components/Experience";
 import Lang from "./components/Lang";
-import Project from "./components/Project";
+import Project from "./components/projects/Project";
 import Client from "./components/Client";
 import MobileMenu from "./components/MobileMenu";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Lang></Lang>
       <Project></Project>
       <Client></Client>
+      <Contact></Contact>
       <MobileMenu></MobileMenu>
     </div>
   );
